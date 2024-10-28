@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Ethereum Prediction</h1>
+    <h2>Please enter a time frame you want to predict</h2>
+    <h3>Note: Last recorded date is 16/04/2020 for the dataset. The further in future we predict, the less the accuracy</h3>
+    <form method='POST'>
+        To date:
+        <input type="text", name="td", placeholder="yyyy/mm/dd"><br><br>
+        <input type="submit" ,value="predict">
+    </form>
+    <center>
+    <p>{{ name }}</p>
+
+    <img src='static/output.png' alt="Chart" width="1200">
+    </center>
+
+</body>
+</html>
